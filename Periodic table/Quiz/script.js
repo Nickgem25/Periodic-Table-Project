@@ -16,7 +16,7 @@ const questions = [
             { text: "ans 1", correct: false},
             { text: "ans 1", correct: false},
         ]
-    }
+    },
 ];
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -77,18 +77,19 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = 
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block"
 }
 
 function handleNextbutton(){
     currentQuestionIndex++;
-    if(currentQuestionIndex < question.length){
+    if(currentQuestionIndex < questions.length){
         showQuestion();
     }else{
         showScore();
     }
 }
-
 
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length){
@@ -97,6 +98,5 @@ nextButton.addEventListener("click", ()=>{
         startQuiz();
     }
 });
-
 
 startQuiz();
