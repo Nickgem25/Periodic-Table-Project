@@ -142,3 +142,14 @@
     padding: 5px 5px 0px 5px;
     color: rgb(221, 221, 221);
 }
+a:link, a:visited {
+    color:rgb(221, 221, 221);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:rgb(255, 183, 39);
+    background-color: transparent;
+    text-decoration: underline;
+}
