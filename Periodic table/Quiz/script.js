@@ -317,8 +317,8 @@ const questions = [
                 answers: [
                   { text: "Yttrium", correct: true },
                   { text: "Ytterbium", correct: false },
-                  { text: "Yttrium", correct: false },
-                  { text: "Ytterbium", correct: false },
+                  { text: "Magnesium", correct: false },
+                  { text: "Zirconium", correct: false },
                 ],
               },
               {
@@ -596,8 +596,8 @@ const questions = [
                 answers: [
                   { text: "Ytterbium", correct: true },
                   { text: "Yttrium", correct: false },
-                  { text: "Ytterbium", correct: false },
-                  { text: "Yttrium", correct: false },
+                  { text: "Tellurium", correct: false },
+                  { text: "Hahnium", correct: false },
                 ],
               },
               {
