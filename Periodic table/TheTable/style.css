@@ -1,0 +1,156 @@
+.box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: inset 1px 1px 2px 0px black, inset 0px 0px 2px 1px black;
+    color: rgb(221, 221, 221);
+}
+.green-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    border: 2px solid transparent;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: green;
+    color: rgb(221, 221, 221);
+}
+.purple-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: purple;
+    color: rgb(221, 221, 221);
+}
+.brown-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(122, 57, 0);
+    color: rgb(221, 221, 221);
+}
+.light-brown-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(158, 111, 29);
+    color: rgb(221, 221, 221);
+}
+.red-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: red;
+    color: rgb(221, 221, 221);
+}
+    /* dark blue */
+.prusian-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(1,42,74);
+    color: rgb(221, 221, 221);
+}
+.aqua-box {
+    display: solid;
+    width: 85px;
+    height: 85px;          
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(5, 116, 116);
+    color: rgb(221, 221, 221);
+}
+.dark-brown-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(96, 36, 7);
+    color: rgb(221, 221, 221);
+}
+.pink-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(143, 93, 101);
+    color: rgb(221, 221, 221);
+}
+.gray-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(69, 69, 69);
+    color: rgb(221, 221, 221);
+}
+.empty-box {
+    display: solid;
+    width: 85px;
+    height: 85px;
+    padding: 5px 5px 0px 5px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.empty-box-gray {
+    width: auto;
+    height: 85px;
+    text-align: left;
+    padding: 5px 5px 0px 5px;
+    color: rgb(33, 33, 33);
+}
+.blue-box {
+    background-color: rgb(0, 0, 78);
+        display: solid;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.body {
+    background-color: #f6eee2;
+    font-family: 'poppins', sans-serif;
+    color: rgb(221, 221, 221);
+}
+a:link, a:visited {
+    color:rgb(221, 221, 221);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color:rgb(255, 183, 39);
+    background-color: transparent;
+    text-decoration: underline;
+}
+.container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
