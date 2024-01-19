@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f6eee2;
+}
+.app{
+    background: #ffd166;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.app h1{
+    font-size: 25px;
+    color: #222;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn{
+    background: #ffd166;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #28282858;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn:hover:not([disabled]){
+    background: #ff9f1c;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #ffd166;
+    color: #222;
+    font-weight: 500;
+    width: 150px;
+    border: 1px solid #28282858;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    transition: all 0.3s;
+}
+#next-btn:hover:not([disabled]){
+    background: #ff9f1c;
+    color: #fff;
+}
+
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
+#backButton {
+    position: fixed;
+    width: fit-content;
+    font-size: 1.2rem;
+    bottom: 20px;
+    left: 20px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d60606;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
+}
